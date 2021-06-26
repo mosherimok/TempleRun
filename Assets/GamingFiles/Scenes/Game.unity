@@ -2319,9 +2319,29 @@ PrefabInstance:
       propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5892317399111676271, guid: 1b16853c592505a44a21e87c912bfd72,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892317399111676271, guid: 1b16853c592505a44a21e87c912bfd72,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892317399111676271, guid: 1b16853c592505a44a21e87c912bfd72,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7698208824008462688, guid: 1b16853c592505a44a21e87c912bfd72,
         type: 3}
       propertyPath: m_Colors.m_FadeDuration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7698208824008462688, guid: 1b16853c592505a44a21e87c912bfd72,
+        type: 3}
+      propertyPath: m_Transition
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
