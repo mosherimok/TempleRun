@@ -18,6 +18,12 @@ public class OptionsMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    public void OnSliderValueChanged(float volume)
+    {
+        GameMusic.gameVolume = volume;
         sliderText.text = ((int)(slider.value * 100)).ToString() + "%";
     }
 }

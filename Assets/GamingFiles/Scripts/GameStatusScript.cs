@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GameStatusScript : MonoBehaviour
 {
-
     public static int score = 0;
     public static int lives = 3;
     public static float startTime = 180;

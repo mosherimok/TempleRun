@@ -78,6 +78,7 @@
     <Compile Include="Assets\GamingFiles\Scripts\EnemyController.cs" />
     <Compile Include="Assets\GamingFiles\Scripts\EthanScript.cs" />
     <Compile Include="Assets\GamingFiles\Scripts\GM.cs" />
+    <Compile Include="Assets\GamingFiles\Scripts\GameMusic.cs" />
     <Compile Include="Assets\GamingFiles\Scripts\GameStatusScript.cs" />
     <Compile Include="Assets\GamingFiles\Scripts\HitScript.cs" />
     <Compile Include="Assets\GamingFiles\Scripts\MainMenu.cs" />
