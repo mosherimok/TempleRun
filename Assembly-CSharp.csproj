@@ -83,6 +83,7 @@
     <Compile Include="Assets\GamingFiles\Scripts\MainMenu.cs" />
     <Compile Include="Assets\GamingFiles\Scripts\MidMenuScript.cs" />
     <Compile Include="Assets\GamingFiles\Scripts\MiniMapScript.cs" />
+    <Compile Include="Assets\GamingFiles\Scripts\OptionsMenu.cs" />
     <Compile Include="Assets\GamingFiles\Scripts\Paddle.cs" />
     <Compile Include="Assets\GamingFiles\Scripts\PendulumScript.cs" />
     <Compile Include="Assets\GamingFiles\Scripts\PlayerManager.cs" />

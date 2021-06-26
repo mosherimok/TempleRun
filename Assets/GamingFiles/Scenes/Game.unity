@@ -2303,6 +2303,27 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5892317399111676271, guid: 1b16853c592505a44a21e87c912bfd72,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892317399111676271, guid: 1b16853c592505a44a21e87c912bfd72,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bcf6abb1ae30d475d9ac319c6c1f6698,
+        type: 3}
+    - target: {fileID: 5892317399111676271, guid: 1b16853c592505a44a21e87c912bfd72,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7698208824008462688, guid: 1b16853c592505a44a21e87c912bfd72,
+        type: 3}
+      propertyPath: m_Colors.m_FadeDuration
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b16853c592505a44a21e87c912bfd72, type: 3}
 --- !u!1001 &2017983112244927818
@@ -2680,6 +2701,16 @@ PrefabInstance:
       propertyPath: m_Target
       value: 
       objectReference: {fileID: 2015368384}
+    - target: {fileID: 2916916068882220671, guid: c716ebf4df3b2994589c2ba037a2c8ad,
+        type: 3}
+      propertyPath: k_LookDistance
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2916916068882220671, guid: c716ebf4df3b2994589c2ba037a2c8ad,
+        type: 3}
+      propertyPath: lookDistance.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c716ebf4df3b2994589c2ba037a2c8ad, type: 3}
 --- !u!1001 &3548915387880970721
