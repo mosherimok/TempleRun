@@ -2694,6 +2694,21 @@ PrefabInstance:
       propertyPath: victoryMenu
       value: 
       objectReference: {fileID: 5140979289322477230}
+    - target: {fileID: 3548915389071448321, guid: 7296cd0655111254fb912fa9cae3dd2e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548915389071448321, guid: 7296cd0655111254fb912fa9cae3dd2e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548915389071448321, guid: 7296cd0655111254fb912fa9cae3dd2e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24.24
+      objectReference: {fileID: 0}
     - target: {fileID: 3548915389169868664, guid: 7296cd0655111254fb912fa9cae3dd2e,
         type: 3}
       propertyPath: m_Name
