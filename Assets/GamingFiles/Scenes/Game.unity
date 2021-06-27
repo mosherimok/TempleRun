@@ -993,6 +993,36 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 906292658502109646}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1279749554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7629625622430756768, guid: 9583f65b2df1fb84f839108e5993c38c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7629625623768710726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1279749556 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7629625622430756782, guid: 9583f65b2df1fb84f839108e5993c38c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7629625623768710726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1279749557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279749554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97804b339baac9849b1da7be21d33067, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameMusics:
+  - {fileID: 1279749556}
+  - {fileID: 631029093}
+  - {fileID: 1170272107}
+  - {fileID: 1620892161}
+  - {fileID: 1465064931}
 --- !u!1 &1366892750 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1291407683902870, guid: 33b4be3eb4154479bb4fa0123cae6fd2,
@@ -2158,6 +2188,21 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2015368384}
+    - target: {fileID: 906292659959077180, guid: 1b16853c592505a44a21e87c912bfd72,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 906292659959077181, guid: 1b16853c592505a44a21e87c912bfd72,
+        type: 3}
+      propertyPath: field of view
+      value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 906292659959077182, guid: 1b16853c592505a44a21e87c912bfd72,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -439.2
+      objectReference: {fileID: 0}
     - target: {fileID: 906292659959077183, guid: 1b16853c592505a44a21e87c912bfd72,
         type: 3}
       propertyPath: player
