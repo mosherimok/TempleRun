@@ -61,7 +61,7 @@ public class HT_GameController : MonoBehaviour {
 		yield return new WaitForSeconds (2.0f);
 		gameOverText.SetActive (true);
 		yield return new WaitForSeconds (2.0f);
-        GameStatusScript.CatchGameNotPlayed = false;
+        //GameStatusScript.CatchGameNotPlayed = false;
         SceneManager.LoadScene("Game");
 	}
 }

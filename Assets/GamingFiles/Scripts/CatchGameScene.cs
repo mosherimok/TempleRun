@@ -8,7 +8,7 @@ public class CatchGameScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.SetActive(GameStatusScript.CatchGameNotPlayed);
+        gameObject.SetActive(GameStatusScript.mazeGameNotPlayed);
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class CatchGameScene : MonoBehaviour
         {
             GameStatusScript.timerFlag = true;
             GameStatusScript.startTime = GameStatusScript.startTime - Time.timeSinceLevelLoad;
-            GameStatusScript.checkPoint = collider.transform.position + Vector3.forward;
+            GameStatusScript.checkPoint = collider.transform.position + Vector3.right;
             SceneManager.LoadScene("Maze2");
         }
     }

@@ -21,7 +21,8 @@ public class MazeEndPoint : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            GameStatusScript.breakoutGameNotPlayed = false;
+            GameStatusScript.mazeGameNotPlayed = false;
+            GameStatusScript.score += 100;
             SceneManager.LoadScene("Game");
         }
     }
