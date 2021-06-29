@@ -23,8 +23,8 @@ public class CatchGameScene : MonoBehaviour
         {
             GameStatusScript.timerFlag = true;
             GameStatusScript.startTime = GameStatusScript.startTime - Time.timeSinceLevelLoad;
-            GameStatusScript.checkPoint = collider.transform.position;
-            SceneManager.LoadScene("CatchGame");
+            GameStatusScript.checkPoint = collider.transform.position + Vector3.forward;
+            SceneManager.LoadScene("Maze2");
         }
     }
 }
