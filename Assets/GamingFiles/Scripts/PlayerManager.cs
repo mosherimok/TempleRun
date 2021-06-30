@@ -18,8 +18,6 @@ public class PlayerManager : MonoBehaviour
     private void Start()
     {
         GameStatusScript.isGameStarted = true;
-        player.transform.position = respawnTransform.position;
-        GameStatusScript.checkPoint = player.transform.position;
     }
 
     #endregion
