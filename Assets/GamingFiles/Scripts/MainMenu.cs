@@ -2,40 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour {
 
-    private int sceneToContinue;
+    public Button startButton;
+    public Button continueButton;
 
     private void Start()
     {
-        if (GameObject.Find("Continue") == null)
+        Debug.Log(GameStatusScript.isGameStarted);
+        if (GameStatusScript.isGameStarted)
         {
-            return;
-        }
-
-        sceneToContinue = PlayerPrefs.GetInt("SavedScene");
-        if (sceneToContinue != 0)
-        {
-            GameObject.Find("Continue").SetActive(true);
-            GameObject.Find("Play").SetActive(false);
+            continueButton.gameObject.SetActive(true);
+            startButton.gameObject.SetActive(false);
         } else
         {
-            GameObject.Find("Continue").SetActive(false);
-            GameObject.Find("Play").SetActive(true);
+            continueButton.gameObject.SetActive(false);
+            startButton.gameObject.SetActive(true);
         }
     }
 
     public void ContinueGame()
     {
-        sceneToContinue = PlayerPrefs.GetInt("SavedScene");
-        if (sceneToContinue != 0)
-        {
-            SceneManager.LoadScene(sceneToContinue);
-        } else
-        {
-            return;
-        }
+        SceneManager.LoadScene("Game");
     }
 
     public void PlayGame()

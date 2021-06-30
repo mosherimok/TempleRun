@@ -13,6 +13,11 @@ public class PlayerManager : MonoBehaviour
         instance = this;
     }
 
+    private void Start()
+    {
+        GameStatusScript.isGameStarted = true;
+    }
+
     #endregion
 
     public GameObject player;

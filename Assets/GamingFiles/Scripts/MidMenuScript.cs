@@ -39,6 +39,7 @@ public class MidMenuScript : MonoBehaviour
 
     public void Restart()
     {
+        Debug.Log("Restarted");
         SceneManager.LoadScene("Game");
     }
 

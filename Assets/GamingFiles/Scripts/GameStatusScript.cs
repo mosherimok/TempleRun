@@ -11,6 +11,7 @@ public class GameStatusScript : MonoBehaviour
     public static bool mazeGameNotPlayed = true;
     public static bool breakoutGameNotPlayed = true;
     public static bool initiateCoins = true;
+    public static bool isGameStarted = false;
     public static Dictionary<string, bool> coinsToActivate = new Dictionary<string, bool>();
     public static Vector3 checkPoint = GameObject.Find("StartRespawn").GetComponent<Transform>().position;
 

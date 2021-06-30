@@ -53,6 +53,7 @@ public class GM : MonoBehaviour
         if (lives < 1)
         {
             gameOver.SetActive(true);
+            GameStatusScript.isGameStarted = false;
             Time.timeScale = .25f;
             Invoke("GetBackToGame", endDelay);
         }

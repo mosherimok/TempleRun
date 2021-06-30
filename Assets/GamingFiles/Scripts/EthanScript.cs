@@ -149,6 +149,8 @@ public class EthanScript : MonoBehaviour {
     public void onDeath()
     {
         isDead = true;
+        GameStatusScript.isGameStarted = false;
+
         deathMenu.ToggleEndMenu(GameStatusScript.score);
         GameStatusScript.InitializeStats();
     }
