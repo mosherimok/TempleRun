@@ -22,7 +22,9 @@ public class KeyboardListener : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            PlayerPrefs.SetInt("SavedScene", SceneManager.GetActiveScene().buildIndex);
+            GameStatusScript.checkPoint = player.transform.position;
+            GameStatusScript.timerFlag = false;
+            GameStatusScript.startTime = GameStatusScript.startTime - Time.timeSinceLevelLoad; 
             SceneManager.LoadScene("Menu");
         }
 
