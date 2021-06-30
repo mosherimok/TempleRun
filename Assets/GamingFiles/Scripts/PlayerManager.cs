@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    
+
+    public Transform respawnTransform;
+
     #region Singelton
     public static PlayerManager instance;
 
@@ -16,6 +18,8 @@ public class PlayerManager : MonoBehaviour
     private void Start()
     {
         GameStatusScript.isGameStarted = true;
+        player.transform.position = respawnTransform.position;
+        GameStatusScript.checkPoint = player.transform.position;
     }
 
     #endregion

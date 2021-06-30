@@ -38,6 +38,7 @@ public class GM : MonoBehaviour
     {
         clonePaddle = Instantiate(paddle, transform.position, Quaternion.identity) as GameObject;
         score = GameStatusScript.score;
+        GameStatusScript.isGameStarted = false;
         //cloneBricks = Instantiate(bricksPrefab, transform.position, Quaternion.identity) as GameObject;
     }
 
@@ -53,7 +54,6 @@ public class GM : MonoBehaviour
         if (lives < 1)
         {
             gameOver.SetActive(true);
-            GameStatusScript.isGameStarted = false;
             Time.timeScale = .25f;
             Invoke("GetBackToGame", endDelay);
         }

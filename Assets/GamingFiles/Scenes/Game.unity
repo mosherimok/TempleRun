@@ -963,6 +963,12 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!4 &891866636 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3548915389071448321, guid: 7296cd0655111254fb912fa9cae3dd2e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3548915387880970721}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &971501449 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: cc633396b5f95da4b916357a5508ee4f,
@@ -3916,6 +3922,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1366892750}
+    - target: {fileID: 7629625623884235970, guid: 9583f65b2df1fb84f839108e5993c38c,
+        type: 3}
+      propertyPath: respawnTransform
+      value: 
+      objectReference: {fileID: 891866636}
     - target: {fileID: 7629625623884235971, guid: 9583f65b2df1fb84f839108e5993c38c,
         type: 3}
       propertyPath: m_RootOrder

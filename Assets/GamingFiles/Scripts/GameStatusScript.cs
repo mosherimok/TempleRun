@@ -13,12 +13,17 @@ public class GameStatusScript : MonoBehaviour
     public static bool initiateCoins = true;
     public static bool isGameStarted = false;
     public static Dictionary<string, bool> coinsToActivate = new Dictionary<string, bool>();
-    public static Vector3 checkPoint = GameObject.Find("StartRespawn").GetComponent<Transform>().position;
+    //public static Vector3 checkPoint = GameObject.Find("StartRespawn").GetComponent<Transform>().position;
+    public static Vector3 checkPoint;
 
     public static void InitializeStats()
     {
         GameStatusScript.score = 0;
-        GameStatusScript.checkPoint = GameObject.Find("StartRespawn").GetComponent<Transform>().position;
+        Transform startRespawn = GameObject.Find("StartRespawn").transform;
+        if (startRespawn.GetComponent<Transform>() != null)
+        {
+            GameStatusScript.checkPoint = GameObject.Find("StartRespawn").GetComponent<Transform>().position;
+        }
         GameStatusScript.mazeGameNotPlayed = true;
         GameStatusScript.breakoutGameNotPlayed = true;
         GameStatusScript.initiateCoins = true;
