@@ -3302,6 +3302,11 @@ PrefabInstance:
       propertyPath: NotEnoughCoinsText
       value: 
       objectReference: {fileID: 1270204792}
+    - target: {fileID: 3548915388083178040, guid: 7296cd0655111254fb912fa9cae3dd2e,
+        type: 3}
+      propertyPath: messageFadeOutSpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3548915388104697974, guid: 7296cd0655111254fb912fa9cae3dd2e,
         type: 3}
       propertyPath: m_Name
